@@ -1,0 +1,28 @@
+import { Celebrity } from './types.ts';
+
+export const CELEBRITIES: Celebrity[] = [
+  { id: '1', name: 'Taylor Swift', category: 'Musician', imageUrl: 'https://m.media-amazon.com/images/M/MV5BYWYwYzYzMjUtNWE0MS00NmJlLTljNGMtNzliYjg5NzQ1OWY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg' },
+  { id: '2', name: 'LeBron James', category: 'Athlete', imageUrl: 'https://m.media-amazon.com/images/M/MV5BM2IyZTY1YWYtNzIyYS00MTZhLTlkYzUtMzYzZjg5MjUwMGRmXkEyXkFqcGc@._V1_.jpg' },
+  { id: '3', name: 'Zendaya', category: 'Actor', imageUrl: 'https://m.media-amazon.com/images/M/MV5BNDYzMDA4OTMtM2M4ZC00MTA4LThlYTEtMzA0YWQwNjRkOGQ2XkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX500_CR0,0,500,281_.jpg' },
+  { id: '4', name: 'Elon Musk', category: 'Icon', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg' },
+  { id: '5', name: 'Dwayne Johnson', category: 'Actor', imageUrl: 'https://m.media-amazon.com/images/M/MV5BOWUzNzIzMzQtNzMxYi00OWRiLTlhZjEtZTRjYWVkYzI4ZjMwXkEyXkFqcGc@._V1_.jpg' },
+  { id: '6', name: 'Rihanna', category: 'Musician', imageUrl: 'https://m.media-amazon.com/images/M/MV5BYzE5Y2ZiMGYtNjEzOS00MjlmLThjOGUtMzFkYzI0MTk2YmE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg' },
+  { id: '7', name: 'Lionel Messi', category: 'Athlete', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg' },
+  { id: '8', name: 'Margot Robbie', category: 'Actor', imageUrl: 'https://m.media-amazon.com/images/M/MV5BMTYxMzA5OTkxNl5BMl5BanBnXkFtZTgwNTY5NDU5MDE@._V1_.jpg' },
+  { id: '9', name: 'Drake', category: 'Musician', imageUrl: 'https://m.media-amazon.com/images/M/MV5BNDdiMmM2NGQtM2VmNC00MDQxLWI5YWEtMDdkNDAwNDZkNzc2XkEyXkFqcGc@._V1_.jpg' },
+  { id: '10', name: 'Serena Williams', category: 'Athlete', imageUrl: 'https://m.media-amazon.com/images/M/MV5BM2E5NzgyZjgtODQwYi00MjU4LWFlNWYtNThiYjFhNDE1Mjg1XkEyXkFqcGc@._V1_.jpg' },
+  { id: '11', name: 'Tom Holland', category: 'Actor', imageUrl: 'https://m.media-amazon.com/images/M/MV5BMjM5MzU1Mzk5OF5BMl5BanBnXkFtZTgwMTc5NzI1OTE@._V1_.jpg' },
+  { id: '12', name: 'Beyoncé', category: 'Musician', imageUrl: 'https://m.media-amazon.com/images/M/MV5BMTY0OTY3ODA3OV5BMl5BanBnXkFtZTcwMzMyMzQ1NQ@@._V1_.jpg' },
+  { id: '13', name: 'Cristiano Ronaldo', category: 'Athlete', imageUrl: 'https://play-lh.googleusercontent.com/proxy/0tqWVnB-Dg2CxtxR0eRoLFgAxfYZQlnWMy1yv6L3oivWbV94uEml-r9ft0ysVloWTazoo5HHXjkOSCqYRvZRliwWhYJMZwe3dPXtWFrNqlM51GnqBsJGOe1iYQ=s1920-w1920-h1080' },
+  { id: '14', name: 'Billie Eilish', category: 'Musician', imageUrl: 'https://www.rollingstone.com/wp-content/uploads/2025/10/Billie-Eilish-birds-of-a-feather-song.jpg?w=1581&h=1054&crop=1' },
+  { id: '15', name: 'Cillian Murphy', category: 'Actor', imageUrl: 'https://m.media-amazon.com/images/M/MV5BNWM3NTg0NGYtNTFmYS00OWY1LTlkNTgtNzZlMWY4OGRmMmEzXkEyXkFqcGc@._V1_CR1542,983,1114,1670_FMjpg_UX1000_.jpg' },
+  { id: '16', name: 'Kim Kardashian', category: 'Icon', imageUrl: 'https://m.media-amazon.com/images/M/MV5BMGFiZWVhOTAtMDI2MC00YjA3LWFlYWUtZTJhYmMzNGJjNjRjXkEyXkFqcGc@._V1_.jpg' },
+  { id: '17', name: 'Lewis Hamilton', category: 'Athlete', imageUrl: 'https://m.media-amazon.com/images/M/MV5BNDJiOTA4N2MtMzk3Yi00ZjYyLWIxYTctNzU1M2FiYzA5MTJkXkEyXkFqcGc@._V1_.jpg' },
+  { id: '18', name: 'Lady Gaga', category: 'Musician', imageUrl: 'https://m.media-amazon.com/images/M/MV5BMTg1NjQwMzU4MF5BMl5BanBnXkFtZTgwNTk5NjQ4NjE@._V1_FMjpg_UX1000_.jpg' },
+  { id: '19', name: 'Robert Downey Jr.', category: 'Actor', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg' },
+  { id: '20', name: 'Ariana Grande', category: 'Musician', imageUrl: 'https://m.media-amazon.com/images/M/MV5BM2JhZWJmMDEtNTU5MS00YmQ3LTk1NjMtOGFlMjM2MjZlNjg5XkEyXkFqcGc@._V1_.jpg' },
+  { id: '21', name: 'Stephen Curry', category: 'Athlete', imageUrl: 'https://m.media-amazon.com/images/M/MV5BNTA3MDgxNzI1Nl5BMl5BanBnXkFtZTgwNDgyMDk4MjI@._V1_FMjpg_UX1000_.jpg' },
+  { id: '22', name: 'Emma Stone', category: 'Actor', imageUrl: 'https://m.media-amazon.com/images/M/MV5BMjI4NjM1NDkyN15BMl5BanBnXkFtZTgwODgyNTY1MjE@._V1_FMjpg_UX1000_.jpg' },
+  { id: '23', name: 'Justin Bieber', category: 'Musician', imageUrl: 'https://m.media-amazon.com/images/M/MV5BMjE1NjMxMDUyM15BMl5BanBnXkFtZTgwODMzNDM1NTE@._V1_FMjpg_UX1000_.jpg' },
+  { id: '24', name: 'Scarlett Johansson', category: 'Actor', imageUrl: 'https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg' },
+];
